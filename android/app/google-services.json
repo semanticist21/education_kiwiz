@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "240464915606",
+    "project_id": "education-kiwiz",
+    "storage_bucket": "education-kiwiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240464915606:android:4b8b6a99897b68012da6b7",
+        "android_client_info": {
+          "package_name": "com.example.education_kiwiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240464915606-to6qve12fm2n9a4tanlr2psr3fkroatk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.education_kiwiz",
+            "certificate_hash": "f9fd394084fb51cf18dada429bf5cd69d89c1db5"
+          }
+        },
+        {
+          "client_id": "240464915606-t15377q4dsjrf49atod6p33ujfabtntg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ8ii-zzqyYaRsnQHbnE5wSCVizbOiTsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "240464915606-2ah5u59apq8l81do81se3trhettpvl6r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "240464915606-3v291572gjpl1vrf3h9bssnbgkffr9qs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.educationKiwiz.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
