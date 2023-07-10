@@ -8,8 +8,8 @@ import '../components/logo_icons.dart';
 import '../services/login_service.dart';
 import '../styles.dart';
 
-class LogInView extends StatelessWidget {
-  LogInView({super.key});
+class SignInView extends StatelessWidget {
+  SignInView({super.key});
   final _loginService = LoginService();
 
   @override
@@ -36,14 +36,14 @@ class LogInView extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text('Log In', style: TextStyles.LoginMainHeader),
-                    Text('소셜 아이디로 편하게 로그인하세요.', style: TextStyles.LoginSub),
+                    Text('Sign Up', style: TextStyles.LoginMainHeader),
+                    Text('소셜 아이디로 편하게 가입하세요.', style: TextStyles.LoginSub),
                     SizedBox(height: 30),
                     LoginButton(
                         buttonType: Buttons.google,
                         callback: () async =>
                             await _loginService.signInWithGoogleAsync(),
-                        buttonText: '구글로 로그인'),
+                        buttonText: '구글로 가입하기'),
                     CustomLoginButton(
                         icon: LogoIcons.kakao,
                         iColor: KAKAO_ICOLOR,
@@ -51,7 +51,7 @@ class LogInView extends StatelessWidget {
                         tColor: PRIMARY_TXT_COLOR,
                         callback: () async =>
                             await _loginService.signInWithGoogleAsync(),
-                        buttonText: '카카오로 로그인'),
+                        buttonText: '카카오로 가입하기'),
                     CustomLoginButton(
                         icon: LogoIcons.naver,
                         iColor: NAVER_ICOLOR,
@@ -59,17 +59,17 @@ class LogInView extends StatelessWidget {
                         tColor: SECONDARY_TXT_COLOR,
                         callback: () async =>
                             await _loginService.signInWithGoogleAsync(),
-                        buttonText: '네이버로 로그인'),
+                        buttonText: '네이버로 가입하기'),
                     SizedBox(
                       height: 50,
                     ),
-                    Text('아직 가입 안하셨나요?', style: TextStyles.LoginSub),
+                    Text('이미 가입하셨나요?', style: TextStyles.LoginSub),
                     TextButton(
                         onPressed: () async =>
                             await Navigator.pushReplacementNamed(
-                                context, SIGNIN_ADDR),
+                                context, LOGIN_ADDR),
                         child: Text(
-                          '가입하기',
+                          '로그인 하기',
                           style: TextStyles.LoginTxtButton,
                         ))
                   ],
