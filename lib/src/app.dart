@@ -1,6 +1,5 @@
 import 'package:education_kiwiz/src/const.dart';
 import 'package:education_kiwiz/src/router/routes.dart';
-import 'package:education_kiwiz/src/view/error_view.dart';
 import 'package:education_kiwiz/src/view/home_view.dart';
 import 'package:education_kiwiz/src/view/signin_view.dart';
 import 'package:firebase_auth/firebase_auth.dart';
