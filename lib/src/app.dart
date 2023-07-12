@@ -17,8 +17,7 @@ class App extends StatelessWidget {
       theme: ThemeData.light(),
       title: APP_NAME,
       onGenerateRoute: (settings) => getPageBuilder(settings),
-      onUnknownRoute: (settings) =>
-          MaterialPageRoute(builder: (context) => routes[LOGIN_ADDR]!(context)),
+      onUnknownRoute: (settings) => getPageBuilder(settings),
       home: MediaQuery(
         data: MediaQuery.of(context).copyWith(textScaleFactor: 1),
         child: StreamBuilder(
