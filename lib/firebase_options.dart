@@ -66,6 +66,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '240464915606',
     projectId: 'education-kiwiz',
     storageBucket: 'education-kiwiz.appspot.com',
+    androidClientId: '240464915606-to6qve12fm2n9a4tanlr2psr3fkroatk.apps.googleusercontent.com',
     iosClientId: '240464915606-pf0anp26iu5vi1a2luhqcsoremrhcf5e.apps.googleusercontent.com',
     iosBundleId: 'com.example.educationKiwiz',
   );
@@ -76,6 +77,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '240464915606',
     projectId: 'education-kiwiz',
     storageBucket: 'education-kiwiz.appspot.com',
+    androidClientId: '240464915606-to6qve12fm2n9a4tanlr2psr3fkroatk.apps.googleusercontent.com',
     iosClientId: '240464915606-3v291572gjpl1vrf3h9bssnbgkffr9qs.apps.googleusercontent.com',
     iosBundleId: 'com.example.educationKiwiz.RunnerTests',
   );
