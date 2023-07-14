@@ -1,5 +1,4 @@
 import 'package:education_kiwiz/src/const.dart';
-import 'package:education_kiwiz/src/router/routes.dart';
 import 'package:education_kiwiz/src/view/home_view.dart';
 import 'package:education_kiwiz/src/view/signin_view.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -16,8 +15,8 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(),
       title: APP_NAME,
-      onGenerateRoute: (settings) => getPageBuilder(settings),
-      onUnknownRoute: (settings) => getPageBuilder(settings),
+      onGenerateRoute: getPageBuilder,
+      onUnknownRoute: getPageBuilder,
       home: MediaQuery(
         data: MediaQuery.of(context).copyWith(textScaleFactor: 1),
         child: StreamBuilder(
