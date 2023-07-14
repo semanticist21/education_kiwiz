@@ -1,7 +1,8 @@
 // general constants
 import 'package:flutter/material.dart';
 
-const String APP_NAME = '교육학 키위즈';
+const String APP_NM = '교육학 키위즈';
+const String APP_ENG_NM = 'education kiwiz';
 
 // asset constants
 const String APP_SPLASH_IMG_PATH = 'assets/imgs/splash.png';

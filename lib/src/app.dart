@@ -14,7 +14,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(),
-      title: APP_NAME,
+      title: APP_NM,
       onGenerateRoute: getPageBuilder,
       onUnknownRoute: getPageBuilder,
       home: MediaQuery(
