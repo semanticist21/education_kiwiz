@@ -42,7 +42,7 @@ class LogInView extends StatelessWidget {
                     LoginButton(
                         buttonType: Buttons.google,
                         callback: () async =>
-                            await _loginService.signInWithGoogleAsync(),
+                            await _loginService.logInWithGoogleAsync(),
                         buttonText: '구글로 로그인'),
                     CustomLoginButton(
                         icon: LogoIcons.kakao,
@@ -50,7 +50,7 @@ class LogInView extends StatelessWidget {
                         bColor: KAKAO_BCOLOR,
                         tColor: PRIMARY_TXT_COLOR,
                         callback: () async =>
-                            await _loginService.signInWithGoogleAsync(),
+                            await _loginService.logInWithGoogleAsync(),
                         buttonText: '카카오로 로그인'),
                     CustomLoginButton(
                         icon: LogoIcons.naver,
@@ -58,7 +58,7 @@ class LogInView extends StatelessWidget {
                         bColor: NAVER_BCOLOR,
                         tColor: SECONDARY_TXT_COLOR,
                         callback: () async =>
-                            await _loginService.signInWithGoogleAsync(),
+                            await _loginService.logInWithGoogleAsync(),
                         buttonText: '네이버로 로그인'),
                     SizedBox(
                       height: 50,
